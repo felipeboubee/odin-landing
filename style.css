@@ -1,0 +1,163 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.body{
+    height: 100%;
+    width: 100%;
+}
+
+.header, .footer, .firstsection {
+    background-color: #1F2937;
+}
+
+.header, .firstsection, .secondsection, .thirdsection, .fourthsection, .footer {
+    display: flex;
+    align-items: center;
+    padding: 8px 200px;
+}
+
+.header{
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul, a {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.firstsection {
+    gap: 40px;
+    padding: 150px 200px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;   
+    width: 50%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 7px;
+    border: none;
+    padding: 6px 28px;
+    font-weight: bold;
+    height: 34px;
+    width: 104.88px;
+    margin: 0;
+}
+
+.button.edge {
+    border: 2px;
+    border-color: #F9FAF8;
+}
+
+.image {
+    display: flex;
+    background-color: hsl(213.75deg 6.84% 45.88%);
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+}
+
+img {
+    display: none;
+}
+
+.secondsection {
+    flex-direction: column;
+    padding: 20px 200px;
+    padding-bottom: 130px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.illustrationBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 25%;
+    align-items: center;
+}
+
+.illustration{
+    border: solid 3px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    padding-bottom: 75%;
+    min-width: 75%;
+}
+
+.subtext {
+    color: hsl(216deg 7.61% 61.37%);
+    width: 75%;
+}
+
+.thirdsection {
+    background-color: #E5E7EB;
+    flex-direction: row;
+    padding: 150px 200px;
+    justify-content: center;
+}
+
+.containertwo{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 80%;
+    gap: 7px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin: 0;
+}
+
+.Thor {
+    place-self: flex-end;
+    margin: 0;
+    font-weight: bold;
+}

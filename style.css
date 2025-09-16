@@ -67,16 +67,12 @@ h1 {
     color: #F9FAF8;
     border-radius: 7px;
     border: none;
-    padding: 6px 28px;
+    padding: 6px 12px;
     font-weight: bold;
     height: 34px;
     width: 104.88px;
     margin: 0;
-}
-
-.button.edge {
-    border: 2px;
-    border-color: #F9FAF8;
+    text-align: center;
 }
 
 .image {
@@ -136,8 +132,7 @@ h2 {
 
 .thirdsection {
     background-color: #E5E7EB;
-    flex-direction: row;
-    padding: 150px 200px;
+    padding: 150px 220px;
     justify-content: center;
 }
 
@@ -145,7 +140,7 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: 0;
-    width: 80%;
+    width: 85%;
     gap: 7px;
 }
 
@@ -160,4 +155,39 @@ h2 {
     place-self: flex-end;
     margin: 0;
     font-weight: bold;
+}
+
+.fourthsection {
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+.blueBox {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 90px;
+    padding: 50px 100px;
+    border-radius: 7px;
+    width: 90%;
+    margin: 0;
+}
+
+.callToAction {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 22px;
+    margin: 0;
+}   
+
+.button.edge {
+    border-color: #F9FAF8;
+    border: solid 2px;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+    font-size: 12px;
 }
